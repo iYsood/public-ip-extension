@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Public IPv4",
+  "version": "1.0.0",
+  "icons":{
+    "16":"logo/logo-16.jpg",
+    "48":"logo/logo-48.jpg",
+    "128":"logo/logo-128.jpg"
+  },
+  "description": "Shows your public IPv4 and copies it on click.",
+  "action": {
+    "default_title": "Show Public IPv4",
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://api.ipify.org/*"
+  ]
+}
